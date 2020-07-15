@@ -1,14 +1,34 @@
 {
   "name": "ardorsign",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "description": "Command line tool to sign transactions for the ardor blockchain.",
+  "main": "index.js",
   "bin": {
     "ardorsign": "./bin/index.js"
   },
-  "main": "./lib/sign.js",
+  "directories": {
+    "lib": "lib"
+  },
   "dependencies": {
     "ardorjs": "^0.1.8",
-    "cli-helper": "^1.0.0",
-    "colors": "^1.2.1",
-    "lodash": "^4.17.5"
-  }
+    "cli-helper": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMBERSIVE/ardorsign.git"
+  },
+  "keywords": [
+    "ardor",
+    "cli"
+  ],
+  "author": "Manuel Pirker-Ihl <manuel.pirker-ihl@ambersive.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AMBERSIVE/ardorsign/issues"
+  },
+  "homepage": "https://github.com/AMBERSIVE/ardorsign#readme"
 }
