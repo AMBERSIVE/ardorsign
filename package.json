@@ -1,0 +1,14 @@
+{
+  "name": "ardorsign",
+  "version": "1.0.0",
+  "bin": {
+    "ardorsign": "./bin/index.js"
+  },
+  "main": "./lib/sign.js",
+  "dependencies": {
+    "ardorjs": "^0.1.8",
+    "cli-helper": "^1.0.0",
+    "colors": "^1.2.1",
+    "lodash": "^4.17.5"
+  }
+}
